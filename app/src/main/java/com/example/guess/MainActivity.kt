@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
     val TAG = MainActivity::class.java.simpleName
     val functions = listOf<String>(
         "Guess game",
-        "Record list",
-        "coming soon")
+        "Record list"
+        )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

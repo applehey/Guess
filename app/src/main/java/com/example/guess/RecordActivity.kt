@@ -9,6 +9,7 @@ import androidx.room.Room
 import com.example.guess.data.GameDatabase
 import com.example.guess.data.Record
 import kotlinx.android.synthetic.main.activity_record.*
+import java.util.*
 
 class RecordActivity : AppCompatActivity() {
 
@@ -17,6 +18,22 @@ class RecordActivity : AppCompatActivity() {
         setContentView(R.layout.activity_record)
         val count = intent.getIntExtra("COUNTER", -1)
         counter.setText(count.toString())
+//--
+        val bless = listOf(
+            getString(R.string.bless_1),
+            getString(R.string.bless_2),
+            getString(R.string.bless_3),
+            getString(R.string.bless_4),
+            getString(R.string.bless_5)
+        )
+        fun bless() : String {
+            var ble = Random().nextInt(3)
+            var bless = bless.get(ble)
+            return bless
+        }
+        blessText.text = bless()
+//--
+
         //OnClickListener
         save.setOnClickListener { view ->
             val nick = nickname.text.toString()

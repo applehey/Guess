@@ -1,10 +1,15 @@
 <resources>
-    <string name="app_name">Guess</string>
+    <string name="app_name">Lucky star</string>
     <string name="please_enter_number">please enter number(1-10):</string>
     <string name="ok">OK</string>
     <string name="yes_you_got_it">Yes, you got it</string>
     <string name="bigger">Bigger</string>
     <string name="smaller">Smaller</string>
     <string name="dialog_title">message</string>
-    <string name="title_activity_material">MaterialActivity</string>
+    <string name="title_activity_material">Lucky star</string>
+    <string name="bless_1">Keep on going never give up.</string>
+    <string name="bless_2">Believe in yourself.</string>
+    <string name="bless_3">You think you can, you can.</string>
+    <string name="bless_4">Action speak louder than words.</string>
+    <string name="bless_5">Don’t give up and don’t give in.</string>
 </resources>

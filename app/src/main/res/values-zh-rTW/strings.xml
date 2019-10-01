@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">猜數字</string>
     <string name="yes_you_got_it">耶!猜對了</string>
     <string name="smaller">小一點兒</string>
     <string name="bigger">大一點哦</string>
-    <string name="please_enter_number">輸入一個數字(1-10)</string>
+    <string name="please_enter_number">猜猜你的幸運號碼(1-10)</string>
     <string name="ok">確定</string>
     <string name="dialog_title">提示訊息</string>
+    <string name="bless_5">不要放棄，不要言敗！</string>
+    <string name="bless_2">相信你自己！</string>
+    <string name="bless_3">你認為行，你就行！</string>
+    <string name="bless_1">勇往直前，決不放棄！</string>
+    <string name="bless_4">行動勝於言語！</string>
 </resources>

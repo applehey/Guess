@@ -101,8 +101,10 @@ class MaterialActivity : AppCompatActivity() {
         var message = getString(R.string.yes_you_got_it)
         if (diff < 0) {
             message = getString(R.string.bigger)
+            ed_number.setText("")
         } else if (diff > 0) {
             message = getString(R.string.smaller)
+            ed_number.setText("")
         }
         counter.setText(secretNumber.count.toString())
 //        Toast.makeText(this, message, Toast.LENGTH_LONG).show()
